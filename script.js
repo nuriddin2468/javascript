@@ -111,3 +111,8 @@ if ((moskva < tashkent && moskva > newYork) || (moskva > tashkent && moskva < ne
 // Самая средняя погода : Ташкент
 // Разница между самой теплым городом Ташкент и самым холодным городом Нью Йорк: 40
 
+
+// TODO: ЗАДАНИЕ
+// Вывести : Cherry больше чем Apple на 5 штук
+const apple = 15;
+const cherry = 20;
