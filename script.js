@@ -61,7 +61,7 @@ if(mersedes > tesla) {
 } else if (mersedes === tesla) {
     console.log('Оба равны')
 } else { // ELSE ВСЕГДА В КОНЦЕ
-    console.log(`Крутая тесла дороже чем Мерседес на  ${tesla - mersedes}$`)
+    console.log(`Крутая тесла дороже чем Мерседес на  ${tesla - mersedes}$яв`)
 }
 
 // '' "" ``
