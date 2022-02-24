@@ -124,3 +124,9 @@ if (apple > cherry) {
 }else {
     console.log("Оба равны");
 }
+
+// TODO: Задание 2
+// Найти среднию дистанцию, вывести: Средняя дистанция 2000
+const distance1 = 1000;
+const distance2 = 2000;
+const distance3 = 3000;
