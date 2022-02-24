@@ -127,6 +127,15 @@ if (apple > cherry) {
 
 // TODO: Задание 2
 // Найти среднию дистанцию, вывести: Средняя дистанция 2000
-const distance1 = 1000;
-const distance2 = 2000;
-const distance3 = 3000;
+const distance1 = 2500;
+const distance2 = 2900;
+const distance3 = 2600;
+if ((distance1 < distance2 && distance1 > distance3) || (distance1 > distance2 && distance1 < distance3)) {
+    console.log(`Средняя дистанция  ${distance1}`);
+}
+if ((distance2 < distance1 && distance2 > distance3) || (distance2 > distance1 && distance2 < distance3)) {
+    console.log(`Средняя дистанция ${distance2}`);
+}
+if ((distance3 < distance1 && distance3 > distance2) || (distance3 > distance1 && distance3 < distance2)) {
+    console.log(`Средняя дистанция ${distance3}`);
+}
