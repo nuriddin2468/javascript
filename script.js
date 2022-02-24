@@ -114,5 +114,13 @@ if ((moskva < tashkent && moskva > newYork) || (moskva > tashkent && moskva < ne
 
 // TODO: ЗАДАНИЕ
 // Вывести : Cherry больше чем Apple на 5 штук
-const apple = 15;
+const apple = 20;
 const cherry = 20;
+
+if (apple > cherry) {
+    console.log(`Apple больше на ${apple-cherry}`);
+}else if (cherry > apple) {
+    console.log(`Cherry больше на ${cherry-apple}`);
+}else {
+    console.log("Оба равны");
+}
