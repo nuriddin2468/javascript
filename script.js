@@ -147,12 +147,15 @@ const num1 = 50;
 const num2 = 25;
 console.log(`${num1} + ${num2} = ${num1 + num2}`)
 console.log(num1 + " + " + num2 + " = " + (num1 + num2))
-
-
-// TODO: Задание 4
-const num3 = 10;
-// Найти квадрат числа, вывести: Квадрат числа 10 будет 100
-
 console.log(`${num1} - ${num2} = ${num1 - num2}`)
 console.log(`${num1} * ${num2} = ${num1 * num2}`)
 console.log(`${num1} / ${num2} = ${num1 / num2}`)
+
+
+// TODO: Задание 4
+const num3 = 4;
+// Найти квадрат числа, вывести: Квадрат числа 10 будет 100
+
+console.log(`Квадрат числа ${num3} будет ${num3 * num3}`);
+
+
