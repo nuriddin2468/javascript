@@ -141,7 +141,9 @@ if ((distance3 < distance1 && distance3 > distance2) || (distance3 > distance1 &
 }
 
 
-// TODO: Задани 3
+// TODO: Задание 3
 // Найти сумму двух чисел, деление , умножение, вычитание.
 const num1 = 50;
 const num2 = 25;
+console.log(`${num1} + ${num2} = ${num1 + num2}`)
+console.log(num1 + " + " + num2 + " = " + (num1 + num2))
