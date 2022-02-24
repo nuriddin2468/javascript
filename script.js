@@ -139,3 +139,9 @@ if ((distance2 < distance1 && distance2 > distance3) || (distance2 > distance1 &
 if ((distance3 < distance1 && distance3 > distance2) || (distance3 > distance1 && distance3 < distance2)) {
     console.log(`Средняя дистанция ${distance3}`);
 }
+
+
+// TODO: Задани 3
+// Найти сумму двух чисел, деление , умножение, вычитание.
+const num1 = 50;
+const num2 = 25;
