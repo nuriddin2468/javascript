@@ -169,20 +169,23 @@ console.log(`Квадрат числа ${num3} будет ${num3 * num3}`);
 
 const a = 23;
 const b = 46;
-console.log(`${a} + x = ${b}, тогда ${b - a}`)
+console.log(`${a} + x = ${b}, тогда ${b - a}`);
 
 
 // TODO: Задание 7
 // Найти площадь прямоугольника, если одна сторона равняется 5, а другая 10.
 // Вывести: Площадь прямоугольника со сторонами 5 и 10 равняется 50
-const side1 = 5;
-const side2 = 10;
+const side1 = 15;
+const side2 = 102;
+console.log(`Площадь прямоугольника со сторонами ${side1} и ${side2} равняется ${side1 * side2}`);
 
 // TODO: Задание 8
 // Дан число в метрах, найти сколько будет в Сантиметрах и в Километрах
 // Вывести: 500 метров в Сантиметрах:  50000
 // Вывести: 500 метров в Километрах:  0.5
 const c = 500;
+console.log(`${c} метров в Сантиметрах: ${c * 100}`)
+console.log(`${c} метров в Километрах: ${c / 1000}`)
 
 // TODO: Задание 9
 // Найти самого низкого человека и разницу между самым низким и самым высоким человеком
@@ -190,3 +193,34 @@ const c = 500;
 const chel1 = 176;
 const chel2 = 100;
 const chel3 = 188;
+if (chel1 > chel2 && chel1 > chel3) {
+    console.log(`Самый больщой человек с ростом : ${chel1}`)
+}
+if (chel2 > chel1 && chel2 > chel3) {
+    console.log(`Самый больщой человек с ростом : ${chel2}`)
+}
+if (chel3 > chel1 && chel3 > chel2) {
+    console.log(`Самый больщой человек с ростом : ${chel3}`)
+}
+
+if (chel1 < chel2 && chel1 < chel3) {
+    console.log(`Самый низкий человек с ростом : ${chel1}`);
+}
+if (chel2 < chel1 && chel2 < chel3) {
+    console.log(`Самый низкий человек с ростом : ${chel2}`);
+}
+if (chel3 < chel1 && chel3 < chel2) {
+    console.log(`Самый низкий челоек с ростом : ${chel3}`);
+}
+
+if ((chel1 < chel2 && chel1 > chel3) || (chel1 > chel2 && chel1 < chel3)) {
+    console.log(`Средняя рост :  ${chel1}`);
+}
+if ((chel2 < chel1 && chel2 > chel3) || (chel2 > chel1 && chel2 < chel3)) {
+    console.log(`Средняя рост :  ${chel2}`);
+}
+if ((chel3 < chel1 && chel3 > chel2) || (chel3 > chel1 && chel3 < chel2)) {
+    console.log(`Средняя рост :  ${chel3}`);
+}
+console.log(`и разница между самым высоким и низким равняется ${chel3} - ${chel2} = ${chel3 - chel2} см`);
+
