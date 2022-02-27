@@ -307,14 +307,21 @@ console.log(obj.house.street);
 
 // Bank = {}
 // Nuriddin = {}
-bank = {
+
+const bank = {
     name: 'HamkorBank',
     cash: 50000,
     ogranichenie: 5000,
 };
-obj2 = {
+const obj2 = {
     name: 'Nuriddin',
     cash: 0,
     xochet_snyat: 10000,
 };
+if (obj2.xochet_snyat > bank.ogranichenie) {
+    console.log(`${obj2.name} хочет снять ${obj2.xochet_snyat} денег, но он не может снять деньги потому что HamkorBank имеет ограничение в 5000`);
+}
+if (obj2.xochet_snyat <= bank.ogranichenie) {
+    console.log(`${obj2.name} хочет снять ${obj2.xochet_snyat}, он снял у HamkorBank ${obj2.xochet_snyat} денег, у HamkorBank осталось ${bank.cash - obj2.xochet_snyat}`)
+}
 
