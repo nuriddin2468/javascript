@@ -276,7 +276,45 @@ if (weather_temperature < 18 && eat_morojnoe) {
     if (ill_temperature > 38) {
         console.log("Он болеет у него температура 39.6, он не ходит в школу");
     }
-    if (ill_temperature < 38) {
+    else {
         console.log("Он болеет у него температура 37.6, он ходит в школу")
     }
 }
+
+// Типы данных: Boolean (true, false), Number (числа), String (строки)
+const obj = {
+    age: 12,
+    name: 'Bekhruz',
+    live: 'USA',
+    money: 10000000,
+    house: {
+        street: 'Yunusabad',
+        house: 26
+    },
+}
+obj.ill = true; // Добавление переменного внутри объекта
+obj.name = 'Bekhruz'; // Изменили переменное внутри объекта
+obj.money = obj.money - 1000;
+console.log(obj.money);
+delete obj.live; // Удаляем
+obj.house.street = 'Bogobod';
+console.log(obj);
+console.log(obj.house.street);
+
+// TODO: Задание
+// Нуриддин хочет снять 10000 денег, но он не может снять деньги потому что HamkorBank имеет ограничение в 5000
+// Нуриддин хочет снять 5000, он снял у HamkorBank 5000 денег, у HamkorBank осталось 45000
+
+// Bank = {}
+// Nuriddin = {}
+bank = {
+    name: 'HamkorBank',
+    cash: 50000,
+    ogranichenie: 5000,
+};
+obj2 = {
+    name: 'Nuriddin',
+    cash: 0,
+    xochet_snyat: 10000,
+};
+
