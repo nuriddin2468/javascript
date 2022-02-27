@@ -1,5 +1,5 @@
 
-let bekhruz = 13;
+let bekhruz = 12;
 
 //  if   -  если
 // Сравнения: ==,  ===, >, <, >=, <=
@@ -193,34 +193,59 @@ console.log(`${c} метров в Километрах: ${c / 1000}`)
 const chel1 = 176;
 const chel2 = 100;
 const chel3 = 188;
+let samiyVisokiy, samiyNizkiy;
 if (chel1 > chel2 && chel1 > chel3) {
     console.log(`Самый больщой человек с ростом : ${chel1}`)
+    samiyVisokiy = chel1;
 }
-if (chel2 > chel1 && chel2 > chel3) {
+else if (chel2 > chel1 && chel2 > chel3) {
     console.log(`Самый больщой человек с ростом : ${chel2}`)
+    samiyVisokiy = chel2;
 }
-if (chel3 > chel1 && chel3 > chel2) {
+else if (chel3 > chel1 && chel3 > chel2) {
     console.log(`Самый больщой человек с ростом : ${chel3}`)
+    samiyVisokiy = chel3;
 }
 
 if (chel1 < chel2 && chel1 < chel3) {
     console.log(`Самый низкий человек с ростом : ${chel1}`);
+    samiyNizkiy = chel1;
 }
-if (chel2 < chel1 && chel2 < chel3) {
+else if (chel2 < chel1 && chel2 < chel3) {
     console.log(`Самый низкий человек с ростом : ${chel2}`);
+    samiyNizkiy = chel2;
 }
-if (chel3 < chel1 && chel3 < chel2) {
+else if (chel3 < chel1 && chel3 < chel2) {
     console.log(`Самый низкий челоек с ростом : ${chel3}`);
+    samiyNizkiy = chel3;
 }
 
 if ((chel1 < chel2 && chel1 > chel3) || (chel1 > chel2 && chel1 < chel3)) {
     console.log(`Средняя рост :  ${chel1}`);
 }
-if ((chel2 < chel1 && chel2 > chel3) || (chel2 > chel1 && chel2 < chel3)) {
+else if ((chel2 < chel1 && chel2 > chel3) || (chel2 > chel1 && chel2 < chel3)) {
     console.log(`Средняя рост :  ${chel2}`);
 }
-if ((chel3 < chel1 && chel3 > chel2) || (chel3 > chel1 && chel3 < chel2)) {
+else if ((chel3 < chel1 && chel3 > chel2) || (chel3 > chel1 && chel3 < chel2)) {
     console.log(`Средняя рост :  ${chel3}`);
 }
-console.log(`и разница между самым высоким и низким равняется ${chel3} - ${chel2} = ${chel3 - chel2} см`);
+console.log(`и разница между самым высоким и низким равняется ${samiyVisokiy} - ${samiyNizkiy} = ${samiyVisokiy - samiyNizkiy} см`);
 
+// ТО ЧТО ВОЗВРАЩАЕТ TRUE ИЛИ FALSE Называется BOOLEAN
+pravda = true;
+nepravda = false;
+console.log(10 !== 10);
+if (nepravda) {
+    console.log('pravda');
+}
+// !== - НЕ РАВНЯЕТСЯ
+
+// Если температура погоды больше либо равно 18 и кушает мороженое, то он не болеет
+// Если температура погоды меньше 18 и кушает мороженое, то он болеет
+// Если он болеет, и если температура больше 38, то не ходит в школу | Он болеет у него температура 39.6, он не ходит в школу
+// Если он болеет и температура меньше 38, то ходит в школу | Он болеет у него температура 37.6, он ходит в школу
+// Если он не болеет , то он ходит в школу | Он не болеет, он ходит в школу
+weather_temperature = 18; // Градусов
+eat_morojnoe = true; // Кушает мороженое
+ill = false; // Болеет
+ill_temperature = 37.6;
