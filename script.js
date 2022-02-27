@@ -245,7 +245,26 @@ if (nepravda) {
 // Если он болеет, и если температура больше 38, то не ходит в школу | Он болеет у него температура 39.6, он не ходит в школу
 // Если он болеет и температура меньше 38, то ходит в школу | Он болеет у него температура 37.6, он ходит в школу
 // Если он не болеет , то он ходит в школу | Он не болеет, он ходит в школу
-weather_temperature = 18; // Градусов
+weather_temperature = 15; // Градусов
 eat_morojnoe = true; // Кушает мороженое
-ill = false; // Болеет
+ill = true; // Болеет
 ill_temperature = 37.6;
+
+
+if (weather_temperature >= 18 && eat_morojnoe )  {
+    ill = false;
+}
+if (weather_temperature < 18 && eat_morojnoe) {
+    ill = true;
+}
+if (ill === true && ill_temperature > 38) {
+    ill = true;
+    console.log("Он болеет у него температура 39.6, он не ходит в школу");
+}
+if (ill === true && ill_temperature < 38) {
+    ill = true;
+    console.log("Он болеет у него температура 37.6, он ходит в школу")
+}
+if (ill === false) {
+    console.log("Он ходит в школу")
+}
