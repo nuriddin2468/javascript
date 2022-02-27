@@ -251,20 +251,32 @@ ill = true; // Болеет
 ill_temperature = 37.6;
 
 
+// if (weather_temperature >= 18 && eat_morojnoe )  {
+//     ill = false;
+// }
+// if (weather_temperature < 18 && eat_morojnoe) {
+//     ill = true;
+// }
+// if (ill === true && ill_temperature > 38) {
+//     console.log("Он болеет у него температура 39.6, он не ходит в школу");
+// }
+// if (ill === true && ill_temperature < 38) {
+//     console.log("Он болеет у него температура 37.6, он ходит в школу")
+// }
+// if (ill === false) {
+//     console.log("Он ходит в школу")
+// }
+
 if (weather_temperature >= 18 && eat_morojnoe )  {
     ill = false;
+    console.log("Он ходит в школу")
 }
 if (weather_temperature < 18 && eat_morojnoe) {
     ill = true;
-}
-if (ill === true && ill_temperature > 38) {
-    ill = true;
-    console.log("Он болеет у него температура 39.6, он не ходит в школу");
-}
-if (ill === true && ill_temperature < 38) {
-    ill = true;
-    console.log("Он болеет у него температура 37.6, он ходит в школу")
-}
-if (ill === false) {
-    console.log("Он ходит в школу")
+    if (ill_temperature > 38) {
+        console.log("Он болеет у него температура 39.6, он не ходит в школу");
+    }
+    if (ill_temperature < 38) {
+        console.log("Он болеет у него температура 37.6, он ходит в школу")
+    }
 }
