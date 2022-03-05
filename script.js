@@ -370,6 +370,7 @@ const obj5 = {
     obj5: {car2: 'dwqewe1231'},
     obj: {car: 'dasdasd'},
 }
+console.log(`Число: ${obj5.number}, Текст: ${obj5.text}, Boolean: ${obj5.boolean}, Object: ${obj5.obj.car}`);
 
 // СОЗДАТЬ ОБЪЕКТ FAMILY2 У КОТОРОГО ЕСТЬ:
 // Машины (Число)
@@ -377,7 +378,7 @@ const obj5 = {
 // Это права (isTrue) true, false
 // ОБЪЕКТ: members  (мама, папа, брат, Нуриддин) и у каждого membera должны быть параметры: Имя Возраст
 const family2 = {
-    car3: 2,
+    car: 2,
     live: 'Tashkent',
     prava: true,
     members: {
@@ -403,5 +404,8 @@ const family2 = {
         },
     }
  }
+ // Семья живет в _ , у них есть машины, кол-во: _
+ // Семья состоит из: Bekhruz ему 12.5, Nuriddin ему 25,
+
 
 console.log(family2)
