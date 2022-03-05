@@ -417,3 +417,19 @@ console.log(`Семья состоит из: ${family2.members.nuriddin.name} е
  ${family2.members.papa.name} ему ${family2.members.papa.age}, ${family2.members.mama.name} ей ${family2.members.mama.age}
  `)
 
+//Создать объект обо мне
+// Имя - text
+// Возраст - number
+// Школа - text
+// Болеет - boolean
+// Лучшие друзья - Объект  (имя, возраст, сколько лет ты дружишь) - минимум 3
+// Любимые игры - Объект (Название игры, кто разработчик, и когда был создан) - минимум 3
+
+
+//Создать объект про Америку
+// Население - число
+// Города - объект (Название города) // MInimum 5
+// Лучшие места - (Address, Название) // Minimum 3
+
+const aboutMe = {}
+const america = {}
