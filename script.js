@@ -281,7 +281,7 @@ if (weather_temperature < 18 && eat_morojnoe) {
     }
 }
 
-// Типы данных: Boolean (true, false), Number (числа), String (строки)
+// Типы данных: Boolean Number (числа), String (строки)
 const obj = {
     age: 12,
     name: 'Bekhruz',
@@ -343,3 +343,24 @@ delete obj4.family_name; // Удаление параметров объекта
 console.log(obj3);
 console.log(obj4);
 
+const family = {
+    car: 'Cobalt',
+    house: '2',
+    sister: '1',
+    brothers: '2',
+    parents: '2',
+    internet: '2',
+    piano: '1',
+    Nuriddin_uchitel: '2',
+    Nuriddin_uchitel1: '1',
+    Nuriddin_uchitel2: '1',
+};
+
+// number; text; обьект; Boolean(true, false) ;
+
+const obj5 = {
+    number: 5,
+    text: 'Nuriddin',
+    boolean: true,
+    obj5: {car2},
+}
