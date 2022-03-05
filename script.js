@@ -362,5 +362,4 @@ const obj5 = {
     number: 5,
     text: 'Nuriddin',
     boolean: true,
-    obj5: {car2},
 }
