@@ -360,9 +360,6 @@ const family = {
 
 const num = 2;
 const text = 'asdasd';
-const obj = {
-    name: 'Nuriddin'
-};
 const bool = true;
 const bool2 = false;
 
@@ -370,14 +367,41 @@ const obj5 = {
     number: 5,
     text: 'Nuriddin',
     boolean: true,
-    obj: {car: 'dasdasd'}
+    obj5: {car2: 'dwqewe1231'},
+    obj: {car: 'dasdasd'},
 }
 
 // СОЗДАТЬ ОБЪЕКТ FAMILY2 У КОТОРОГО ЕСТЬ:
 // Машины (Число)
 // Где они живут (Live) - Tashkent (TEXT)
 // Это права (isTrue) true, false
-// ОБЪЕКТ: members  (мама, папа, брат) и у каждого membera должны быть параметры: Имя Возраст
+// ОБЪЕКТ: members  (мама, папа, брат, Нуриддин) и у каждого membera должны быть параметры: Имя Возраст
 const family2 = {
+    car3: 2,
+    live: 'Tashkent',
+    prava: true,
+    members: {
+        mama: {
+            name: 'Nodira',
+            age: 37,
+        },
+        papa: {
+          name: 'Ulugbek',
+          age: 38,
+        },
+        brat: {
+            name: 'Bekzod',
+            age: 2.5,
+        },
+        nuriddin: {
+          name: 'Nuriddin',
+          age: 25,
+        },
+        sestra: {
+            name: 'Charos',
+            age: 11,
+        },
+    }
+ }
 
-}
+console.log(family2)
