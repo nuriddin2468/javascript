@@ -330,5 +330,16 @@ if (obj2.xochet_snyat <= bank.ogranichenie) {
     obj2.xochet_snyat = 0;
 }
 
-console.log(bank);
-console.log(obj2);
+// Объекты
+
+const obj3 = {}; // Создание объекта  {}
+obj3.perviy = "perviy"; // Создание нового параметра
+obj3.obj = {dela: 'horosho'};  // Создание нового параметра в виде объекта
+const obj4 = {
+    name: 'Bekhruz',
+    family_name: 'Akbarov',
+};
+delete obj4.family_name; // Удаление параметров объекта
+console.log(obj3);
+console.log(obj4);
+
