@@ -358,8 +358,26 @@ const family = {
 
 // number; text; обьект; Boolean(true, false) ;
 
+const num = 2;
+const text = 'asdasd';
+const obj = {
+    name: 'Nuriddin'
+};
+const bool = true;
+const bool2 = false;
+
 const obj5 = {
     number: 5,
     text: 'Nuriddin',
     boolean: true,
+    obj: {car: 'dasdasd'}
+}
+
+// СОЗДАТЬ ОБЪЕКТ FAMILY2 У КОТОРОГО ЕСТЬ:
+// Машины (Число)
+// Где они живут (Live) - Tashkent (TEXT)
+// Это права (isTrue) true, false
+// ОБЪЕКТ: members  (мама, папа, брат) и у каждого membera должны быть параметры: Имя Возраст
+const family2 = {
+
 }
