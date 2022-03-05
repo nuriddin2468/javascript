@@ -402,10 +402,18 @@ const family2 = {
             name: 'Charos',
             age: 11,
         },
+        Bekhruz: {
+            name: 'Bekhruz',
+            age: 12.5,
+        }
     }
  }
  // Семья живет в _ , у них есть машины, кол-во: _
  // Семья состоит из: Bekhruz ему 12.5, Nuriddin ему 25,
 
+console.log(`Семья живёт в ${family2.live}, у них есть машины, количество: ${family2.car}`);
+console.log(`Семья состоит из: ${family2.members.nuriddin.name} ему ${family2.members.nuriddin.age},
+ ${family2.members.Bekhruz.name} ему ${family2.members.Bekhruz.age}, ${family2.members.sestra.name} ей ${family2.members.sestra.age},
+ ${family2.members.papa.name} ему ${family2.members.papa.age}, ${family2.members.mama.name} ей ${family2.members.mama.age}
+ `)
 
-console.log(family2)
