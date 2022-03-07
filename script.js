@@ -431,5 +431,19 @@ console.log(`Семья состоит из: ${family2.members.nuriddin.name} е
 // Города - объект (Название города) // MInimum 5
 // Лучшие места - (Address, Название) // Minimum 3
 
-const aboutMe = {}
-const america = {}
+const aboutMe = {
+    name: 'Bekhruz',
+    number: 12,
+    school: 260,
+    sick: 'boolean',
+    bestfriend: ('Абдиламит , 12 , 5 года дружил'),
+    bestgames: ('Counter Strike Global Offensive, Valve, в 2012 году был создан'),
+
+}
+const america = {
+    peoples: '329,5 миллиона (2020 г.)',
+    cityes: '3 города:  New York, Los Angeles, Chicago',
+    besttops: 'Статуя Свободы, Центральный Парк (г. Нью-Йорк, Манхэттен), Чайна-таун (г. Нью-Йорк, Манхэттен)',
+}
+
+console.log(america.peoples);
