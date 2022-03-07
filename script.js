@@ -429,21 +429,10 @@ console.log(`Семья состоит из: ${family2.members.nuriddin.name} е
 //Создать объект про Америку
 // Население - число
 // Города - объект (Название города) // MInimum 5
-// Лучшие места - (Address, Название) // Minimum 3
+// Лучшие места Объект- (Address, Название) // Minimum 3
 
-const aboutMe = {
-    name: 'Bekhruz',
-    number: 12,
-    school: 260,
-    sick: 'boolean',
-    bestfriend: ('Абдиламит , 12 , 5 года дружил'),
-    bestgames: ('Counter Strike Global Offensive, Valve, в 2012 году был создан'),
+// ЛОГ ДОЛЖЕН БЫТЬ ЗАПИСАН ТАК ЖЕ КАК В ЗАДАНИИ
 
-}
-const america = {
-    peoples: '329,5 миллиона (2020 г.)',
-    cityes: '3 города:  New York, Los Angeles, Chicago',
-    besttops: 'Статуя Свободы, Центральный Парк (г. Нью-Йорк, Манхэттен), Чайна-таун (г. Нью-Йорк, Манхэттен)',
-}
+let abc = {};
 
-console.log(america.peoples);
+console.log(abc = 10);
