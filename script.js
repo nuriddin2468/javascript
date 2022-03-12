@@ -417,13 +417,7 @@ console.log(`Семья состоит из: ${family2.members.nuriddin.name} е
  ${family2.members.papa.name} ему ${family2.members.papa.age}, ${family2.members.mama.name} ей ${family2.members.mama.age}
  `)
 
-//Создать объект обо мне
-// Имя - text
-// Возраст - number
-// Школа - text
-// Болеет - boolean
-// Лучшие друзья - Объект  (имя, возраст, сколько лет ты дружишь) - минимум 3
-// Любимые игры - Объект (Название игры, кто разработчик, и когда был создан) - минимум 3
+
 
 
 //Создать объект про Америку
@@ -433,6 +427,80 @@ console.log(`Семья состоит из: ${family2.members.nuriddin.name} е
 
 // ЛОГ ДОЛЖЕН БЫТЬ ЗАПИСАН ТАК ЖЕ КАК В ЗАДАНИИ
 
+//Создать объект обо мне
+// Имя - text
+// Возраст - number
+// Школа - text
+// Болеет - boolean
+// Лучшие друзья - Объект  (имя, возраст, сколько лет ты дружишь) - минимум 3
+// Любимые игры - Объект (Название игры, кто разработчик, и когда был создан) - минимум 3
+
+const I = {
+    name: 'Bekhruz',
+    number: 12,
+    school: 260,
+    bestfriends: {
+        perviy: {
+            name: 'abdilxamit',
+            age: 12,
+        },
+        vtoroy: {
+            name: 'Mirziyod',
+            age: 12,
+        },
+    },
+    bestgames: {
+     perviy: {
+         name: 'CS GO',
+         produsor: 'Джесс Клифф',
+         sozdan: '2012 года',
+     },
+     vtoroy: {
+         name: 'Brawl Stars',
+         produsor: 'SuperCell',
+         sozdan: '2010 года',
+     }
+    }
+}
+
+//Создать объект про Америку
+// Население - число
+// Города - объект (Название города) // MInimum 5
+// Лучшие места Объект- (Address, Название) // Minimum 3
+
+const city = {
+    peoples: '329,5 миллиона (2020 г.)',
+    cityes : {
+        perviy: {
+            name: 'New York',
+        },
+        vtoroy: {
+            name: 'Лос Анджелес',
+        },
+        tretiy: {
+            name: 'Chikago',
+        },
+    },
+    besttop: {
+        perviy: {
+            name: 'Центральный Парк',
+        },
+        vtoroy: {
+            name: 'Золотые Ворота',
+        },
+        tretiy: {
+            name: 'Белый Дом',
+        },
+    }
+}
+console.log(` Имя ${I.name}, Возраст ${I.number}, Школа №${I.school}, лучшие друзья первый: ${I.bestfriends.perviy.name} и ${I.bestfriends.vtoroy.name
+} , Лучшие Игры это : ${I.bestgames.perviy.name} и ${I.bestgames.vtoroy.name}`);
+
+console.log(`Люди в Америке ${city.peoples}, Города ${city.cityes.perviy.name}, ${city.cityes.vtoroy.name} и ${city.cityes.tretiy.name} , 
+ Лучшие места: 1) ${city.besttop.perviy.name}, 2) ${city.besttop.vtoroy.name} и 3) ${city.besttop.tretiy.name}`);
 let abc = {};
 
+
+
 console.log(abc = 10);
+
