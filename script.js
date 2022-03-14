@@ -615,3 +615,10 @@ console.log(name)
 const arr4 = [1, 2, 3, 4];
 
 // цифры: 1, 2, 3, 4,
+
+numbers = 0;
+for (let m = 0; m < arr4.length; m++) {
+    numbers = numbers + arr4[m]
+}
+
+console.log(numbers)
