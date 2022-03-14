@@ -612,13 +612,19 @@ for (let b = 0; b < arr3.length; b++ ) {
 
 console.log(name)
 
-const arr4 = [1, 2, 3, 4];
+const arr4 = [1, 2, 3, 4, 5, 6];
 
 // цифры: 1, 2, 3, 4,
+// Найти сумму
 
-numbers = 0;
-for (let m = 0; m < arr4.length; m++) {
-    numbers = numbers + arr4[m]
+let numbers = 'цифры: ';
+for (let i = 0; i < arr4.length; i = i + 1) {
+    numbers = numbers + arr4[m] + ', '
 }
 
 console.log(numbers)
+
+// -2 1 -5 2 3 6 -9
+const arr5 = []
+
+// -2 -5 -9
