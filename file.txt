@@ -1,0 +1,39 @@
+true && true = true
+true && false = false
+false && true = false
+false && false = false
+
+
+true || true = true
+true || false = true
+false || true = true
+false || false = false
+
+
+ 12 === '12'  false
+ 12 == '12' true
+ a > b true, false
+ a > b || b > a
+ true && true
+if (boolean - true) {
+
+ }else if (true) {
+
+ }else {
+
+ }
+
+ === , == , >= , <=,  < , > ,
+
+ boolean, number, NaN, string , undefined , null
+ object
+
+ delete obj.hhh
+
+ obj = {
+    name: 'bekhruz',
+    age: 15,
+ }
+
+ obj.name = 'Nuriddin';
+ obj.age = 15;

@@ -498,9 +498,68 @@ console.log(` Имя ${I.name}, Возраст ${I.number}, Школа №${I.sc
 
 console.log(`Люди в Америке ${city.peoples}, Города ${city.cityes.perviy.name}, ${city.cityes.vtoroy.name} и ${city.cityes.tretiy.name} , 
  Лучшие места: 1) ${city.besttop.perviy.name}, 2) ${city.besttop.vtoroy.name} и 3) ${city.besttop.tretiy.name}`);
-let abc = {};
 
 
+let ab = isNaN('5');
+console.log(ab);
 
-console.log(abc = 10);
+let arr = []; // Initialize
+arr = [2, 3, 4 ,'asd', {}]
+arr[3] = 'sadasdas'
+// delete arr[3]
+arr.pop(); // Удаляет элемент с конца списка
+arr.push('new el') // Добавляет элемент в конец списка
+console.log(arr.length);
 
+
+// Переделать домашку в список
+
+const city2 = {
+    peoples: '329,5 миллиона (2020 г.)',
+    cityes : ['New York' , 'Лос Анджелес', 'Chikago'],
+    besttop: ['Центральный Парк', 'Белый дом', 'Золотые Ворота'],
+}
+
+console.log(city2)
+
+console.log(`Люди в Америке ${city2.peoples}, Города ${city2.cityes[0]}, ${city2.cityes[1]} и ${city2.cityes[2]} , 
+ Лучшие места: 1) ${city2.besttop[0]}, 2) ${city2.besttop[1]} и 3) ${city2.besttop[2]}`);
+
+// Домашка тоже самое передалать в список
+const I2 = {
+    name: 'Bekhruz',
+    number: 12,
+    school: 260,
+    bestfriends: {
+        perviy: {
+            name: 'abdilxamit',
+            age: 12,
+        },
+        vtoroy: {
+            name: 'Mirziyod',
+            age: 12,
+        },
+    },
+    bestgames: {
+        perviy: {
+            name: 'CS GO',
+            produsor: 'Джесс Клифф',
+            sozdan: '2012 года',
+        },
+        vtoroy: {
+            name: 'Brawl Stars',
+            produsor: 'SuperCell',
+            sozdan: '2010 года',
+        }
+    }
+}
+
+
+const family3 = {
+    car: 2,
+    prava: true,
+    members: ['mama: name: Нодира, age: 37', 'papa: name: Улугбек, age: 38', 'brat: name: Бекзод, age: 2', 'sestra: name: Чарос , age: 10', 'I: name: Бехруз, age: 12'],
+}
+
+console.log(`Машин: ${family3.car}, Prava: ${family3.prava}, ${family3.members[0]} и ${family3.members[1]} , 
+ и ${family3.members[2]}, и ${family3.members[3]} и и ${family3.members[4]}`);
