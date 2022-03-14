@@ -561,5 +561,46 @@ const family3 = {
     members: ['mama: name: Нодира, age: 37', 'papa: name: Улугбек, age: 38', 'brat: name: Бекзод, age: 2', 'sestra: name: Чарос , age: 10', 'I: name: Бехруз, age: 12'],
 }
 
-console.log(`Машин: ${family3.car}, Prava: ${family3.prava}, ${family3.members[0]} и ${family3.members[1]} , 
- и ${family3.members[2]}, и ${family3.members[3]} и и ${family3.members[4]}`);
+const family4 = {
+    car: 2,
+    prava: true,
+    members: [
+        {
+            name: 'Nodira',
+            age: 37
+        },
+        {
+            name: 'Ulugbek',
+            age: 38,
+        },
+    ]
+}
+
+// console.log(`Машин: ${family4.car}, Prava: ${family4.prava}, ${family4.members[0].name} и ${family4.members[1].name} ,
+//  и ${family4.members[2].name}, и ${family4.members[3].name} и и ${family4.members[4].name}`);
+
+
+// arr.pop() arr.push() arr.length
+
+let str = 'ABC sa';
+console.log(str.length); // Считает длинну текста
+console.log(str.slice(0, 3)); // Разрезает текст
+console.log(str.replace('ABC', 'Bekhruz')); // переставляет текст на нужный
+console.log(str.toUpperCase()); // переделывает текст на большие буквы
+console.log(str.toLowerCase()); // переделывает текст на маленькие буквы
+
+
+const arr2 = [0, 1, 2, 3, 4, 5, 5, 5];
+
+// loops
+let summa = 0;
+for (let i = 0; i < arr2.length; i++) {
+    summa = summa + arr2[i];
+}
+console.log(summa);
+
+const arr3 = ['Bekhruz', 'Nuriddin', 'Shamil'];
+
+
+
+// names: Bekhruz, Nuriddin, Shamil,
