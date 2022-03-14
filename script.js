@@ -626,11 +626,48 @@ console.log(numbers)
 
 // -2 1 -5 2 3 6 -9
 const arr5 = [-2 , 1, -5, 2, 3, 6, -9]
-let nuu = 0;
+let nuu = '';
 for (let i = 0; i < arr5.length; i = i + 1) {
-    nuu = nuu + arr5[i] + ', '
-    if (arr5)
+    console.log(arr5[i]);
+    if (arr5[i] < 0) {
+        nuu = nuu + arr5[i] + ', '
+    }
 }
 
 console.log(nuu)
 // -2 -5 -9
+
+
+
+// TODO: DOMASHKA
+
+const arr6 = ['Nuriddin', 'Bekhruz', 'Amerika', 'Sobaka', 'Canada'];
+
+// Nuriddin, Amerika, Canada,
+
+const arr7 = [1, 2, 3, 4, 5, -2, -3, -4, -5];
+
+// 1 + 2 + 3 + 4 + 5 + -2 + -4 + -5
+
+const arr8 = [5, 7, 19, 20, 4 , 35];
+
+// Меньше 18: 5, 7, 4
+// Больше 18: 19, 20, 35
+
+
+const arr9 = [
+    {
+        name: 'Bekhruz',
+        age: 12,
+    },
+    {
+        name: 'Nuriddin',
+        age: 25,
+    },
+    {
+        name: 'Drugoi chel',
+        age: 35,
+    },
+];
+
+// Name: Bekhruz, Age: 12 | Name: Nuriddin, Age: 25 | Name: Drugoi chel, Age: 35

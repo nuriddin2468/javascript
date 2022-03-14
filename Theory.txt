@@ -89,3 +89,12 @@ delete arr[0]
 arr.pop() - удаляет элемент с конца
 arr.push('asdd') - добавляет элемент в конец
 arr.length - длинна списка
+
+
+String Methods:
+str.length  - Длинна строки
+str.slice(0, 3) - Разрезать строку с 0 индекса по 3 индекс
+str.replace('ABC', 'Bekhruz') - Переписать ABC на Bekhruz
+str.toUpperCase() - Все буквы сделать большими
+str.toLowerCase() - Все буквы сделать маленькими
+
