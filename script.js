@@ -605,9 +605,13 @@ const arr3 = ['Bekhruz', 'Nuriddin', 'Shamil'];
 
 // names: Bekhruz, Nuriddin, Shamil,
 
-let name = '';
-for (let b = 0; b < arr3.length; b++) {
-    name = name + arr3[b]
+let name = 'names: ';
+for (let b = 0; b < arr3.length; b++ ) {
+    name = name + arr3[b] + ', '
 }
 
 console.log(name)
+
+const arr4 = [1, 2, 3, 4];
+
+// цифры: 1, 2, 3, 4,
