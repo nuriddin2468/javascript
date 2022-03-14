@@ -604,3 +604,10 @@ const arr3 = ['Bekhruz', 'Nuriddin', 'Shamil'];
 
 
 // names: Bekhruz, Nuriddin, Shamil,
+
+let name = '';
+for (let b = 0; b < arr3.length; b++) {
+    name = name + arr3[b]
+}
+
+console.log(name)
