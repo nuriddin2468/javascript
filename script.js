@@ -619,12 +619,18 @@ const arr4 = [1, 2, 3, 4, 5, 6];
 
 let numbers = 'цифры: ';
 for (let i = 0; i < arr4.length; i = i + 1) {
-    numbers = numbers + arr4[m] + ', '
+    numbers = numbers + arr4[i] + ', '
 }
 
 console.log(numbers)
 
 // -2 1 -5 2 3 6 -9
-const arr5 = []
+const arr5 = [-2 , 1, -5, 2, 3, 6, -9]
+let nuu = 0;
+for (let i = 0; i < arr5.length; i = i + 1) {
+    nuu = nuu + arr5[i] + ', '
+    if (arr5)
+}
 
+console.log(nuu)
 // -2 -5 -9
